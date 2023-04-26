@@ -1,9 +1,9 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-import Structure.*;
-import javax.swing.*;
+package Structure;
 
-public class Main {
+import java.awt.Dimension;
+import javax.swing.JFrame;
+
+public class Window {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Triangle in Circle");
 
@@ -16,3 +16,4 @@ public class Main {
         frame.setVisible(true);
     }
 }
+
